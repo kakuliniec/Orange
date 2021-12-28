@@ -1,0 +1,27 @@
+{
+  "name": "Orange",
+  "version": "1.0.0",
+  "description": "Orange landing page (mobile version only).",
+  "main": "index.js",
+  "dependencies": {
+    "parcel": "^2.0.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakuliniec/Orange.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakuliniec/Orange/issues"
+  },
+  "homepage": "https://github.com/kakuliniec/Orange#readme"
+}

@@ -1,0 +1,93 @@
+a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:active {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.container {
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    flex-flow: column;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    &__logo {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 58px;
+        color: #FFFFFF;
+    }
+}
+
+.header {
+    position: relative;
+    background: #F8765E;
+
+    .container {
+        padding: 25px 45px 60px 51px;
+    }
+
+}
+
+
+.navigation {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &__benefit {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 17px;
+        line-height: 32px;
+        padding-right: 34.5px;
+
+    }
+
+    &__list {
+        display: flex;
+        flex-flow: row;
+        list-style: none;
+        padding: 0;
+    }
+
+    &__pricing {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 17px;
+        line-height: 32px;
+        padding-right: 32.5px;
+
+    }
+
+
+    &__testimonials {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 17px;
+        line-height: 32px;
+
+    }
+}
