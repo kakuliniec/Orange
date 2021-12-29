@@ -1,0 +1,44 @@
+.offer2 {
+
+    .container {
+        padding: 100px 30px;
+    }
+
+    &__description {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 45px;
+        /* identical to box height, or 173% */
+        text-align: center;
+        /* DarkBlue */
+        color: #031D5B;
+    }
+
+    &__header {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        /* or 133% */
+        text-align: center;
+        /* OrangeFull */
+        color: #F8765E;
+    }
+
+    &__right {
+        display: flex;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        /* or 200% */
+        text-align: center;
+        /* DarkBlue */
+        color: #031D5B;
+    }
+
+}
