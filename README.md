@@ -1,5 +1,5 @@
-#Orange - just started this project based on Figma.
-##Orange landing page (mobile version first).
+# Orange - just started this project based on Figma.
+## Orange landing page (mobile version first).
 
 
 Tools used here:
@@ -13,5 +13,7 @@ Tools used here:
 **E n j o y !** 😉
 
 To open:
+
 1.npm install
+
 2.npm start
