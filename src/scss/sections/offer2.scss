@@ -4,6 +4,13 @@
         padding: 100px 30px;
     }
 
+    &__content {
+        display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 375px;
+  }
+
     &__description {
         font-style: normal;
         font-weight: 500;
@@ -13,6 +20,7 @@
         text-align: center;
         /* DarkBlue */
         color: #031D5B;
+        margin: 0 auto;
     }
 
     &__header {
@@ -24,10 +32,26 @@
         text-align: center;
         /* OrangeFull */
         color: #F8765E;
+        margin: 0 auto;
+    padding-top: 59px;
+    }
+
+    &__icon {
+        position: absolute;
+        z-index: 1;
+        ;
+    }
+
+    &__image {
+        position: relative;
+        z-index: 3;
     }
 
     &__right {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
     }
 
     &__text {
