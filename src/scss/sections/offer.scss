@@ -3,6 +3,15 @@
         padding: 0px 20px 0px 20px;
     }
 
+
+    &__collumn {
+       max-width: 302px;
+       max-height: 437px;
+       display: grid;
+       padding: 60px 15px 0px 20px;
+    }
+
+
     &__content {
         color: #5b6c94;
         font-style: normal;
@@ -14,6 +23,14 @@
         border-radius: 20px;
         max-width: 335px;
         margin-top: -64px;
+    }
+
+    &__description {
+        font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
     }
 
     &__table {
