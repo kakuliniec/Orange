@@ -1,8 +1,6 @@
-# Orange
-Orangle landing page (mobile version first).
+# Orange - just started this project based on Figma.
+## Orange landing page (mobile version first).
 
-
-I have just started this project based on Figma.
 Tools used here:
 - Visual Code Studio
 - SASS
