@@ -7,4 +7,4 @@ Tools used here:
 - Flex
 - Grid
 
-![Cover page of this project](src/assets/img/cover.png)
+![Cover of this project](src/assets/img/cover.PNG)
