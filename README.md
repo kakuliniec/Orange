@@ -8,3 +8,5 @@ Tools used here:
 - Grid
 
 ![Cover of this project](src/assets/img/cover.PNG)
+
+**E n j o y !** 😉
