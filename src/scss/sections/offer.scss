@@ -4,10 +4,8 @@
     }
 
     &__collumn {
-        max-width: 302px;
-        max-height: 437px;
         display: grid;
-        padding: 60px 15px 0px 20px;
+        padding: 0px 15px 60px 20px;
     }
 
     &__content {
@@ -42,9 +40,16 @@
         padding-bottom: 17px;
     }
 
+    &__pic {
+        display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    }
+    
     &__table {
         display: grid;
         grid-template-columns: 1fr;
         grid-column-gap: 60px;
+        padding-top: 60px;
     }
 }
