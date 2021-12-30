@@ -22,10 +22,10 @@
 
     &__content {
         display: flex;
-    flex-flow: column;
-    align-items: center;
-    max-width: 375px;
-  }
+        flex-flow: column;
+        align-items: center;
+
+    }
 
     &__description {
         font-style: normal;
@@ -49,7 +49,7 @@
         /* OrangeFull */
         color: #F8765E;
         margin: 0 auto;
-    padding-top: 59px;
+        padding-top: 59px;
     }
 
     &__icon {
@@ -61,6 +61,12 @@
     &__image {
         position: relative;
         z-index: 3;
+    }
+
+    &__left {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
     }
 
     &__right {
@@ -81,6 +87,7 @@
         color: #031D5B;
         padding: 30px;
         margin: 0 auto;
+        max-width: 375px;
     }
 
 }
