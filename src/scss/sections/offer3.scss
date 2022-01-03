@@ -4,11 +4,33 @@
         padding: 0px 0px 117px 20px;
     }
 
+    &__collumn {
+        position: relative;
+    }
+
+    &__company1 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 36px;
+        color: #FFFFFF;
+    }
+
     &__content {
         display: flex;
         flex-flow: column;
         align-items: center;
         position: relative;
+    }
+
+    &__description1 {
+        font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+    max-width: 240px;
+    position: absolute;
+    margin-top: -269px;
+    z-index: 3;
     }
 
     &__down {
@@ -33,6 +55,20 @@
         margin-left: -75px;
     }
 
+    &__litteQuoteW {
+        position: absolute;
+        z-index: 2;
+        padding-top: 206px;
+        margin-left: -290px;
+    }
+
+    &__name1 {
+        font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+    }
+
     &__quotes {
         position: relative;
         z-index: 1;
@@ -42,7 +78,7 @@
     &__right {
         padding-top: 72px;
     }
-    
+
     &__table {
         background: #F8765E;
         border-radius: 20px 0px 0px 20px;
