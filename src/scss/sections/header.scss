@@ -26,9 +26,9 @@ a:hover {
     color: #FFFFFF;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0 auto;
     max-width: 1440px;
+    flex-wrap: wrap;
+    margin: 0;
 
     &__logo {
         font-family: Roboto;
@@ -62,7 +62,7 @@ a:hover {
         font-weight: 900;
         font-size: 17px;
         line-height: 32px;
-        padding-right: 34.5px;
+        padding-left: 698px;
 
     }
 
@@ -78,7 +78,7 @@ a:hover {
         font-weight: 900;
         font-size: 17px;
         line-height: 32px;
-        padding-right: 32.5px;
+        padding-left: 34.5px;
 
     }
 
@@ -88,6 +88,6 @@ a:hover {
         font-weight: 900;
         font-size: 17px;
         line-height: 32px;
-
+        padding-left: 32.5px;
     }
 }
