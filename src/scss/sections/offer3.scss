@@ -16,18 +16,42 @@
     }
 
     &__header {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 45px;
+        color: rgb(248, 118, 94);
         position: absolute;
         z-index: 2;
-        margin: 0 auto;
         max-width: 234px;
-        padding-left: 40px;
-        padding-top: 22px;
+        padding-left: 10px;
+        padding-top: 20px;
+        margin: 0px auto;
+    }
+
+    &__left {
+        padding-top: 72px;
+        margin-left: -75px;
     }
 
     &__quotes {
         position: relative;
         z-index: 1;
-        margin-left: 20px;
+    }
+
+
+    &__right {
+        padding-top: 72px;
+    }
+    
+    &__table {
+        background: #F8765E;
+        border-radius: 20px 0px 0px 20px;
+        margin-left: 75px;
+        display: flex;
+    margin-top: -54px;
+    }
+
+    &__up {
     }
 
 }
