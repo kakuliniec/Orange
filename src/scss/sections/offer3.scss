@@ -8,6 +8,7 @@
         display: flex;
         flex-flow: column;
         align-items: center;
+        position: relative;
     }
 
     &__down {
@@ -15,10 +16,18 @@
     }
 
     &__header {
-        font-weight: 500;
-    font-size: 26px;
-    line-height: 45px;
-    color: #F8765E;
+        position: absolute;
+        z-index: 2;
+        margin: 0 auto;
+        max-width: 234px;
+        padding-left: 40px;
+        padding-top: 22px;
+    }
+
+    &__quotes {
+        position: relative;
+        z-index: 1;
+        margin-left: 20px;
     }
 
 }
