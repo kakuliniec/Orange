@@ -1,6 +1,6 @@
 .offer {
     .container {
-        padding: 0px 20px 0px 20px;
+        padding: 0px 120px 208px 120px;
     }
 
     &__collumn {
@@ -17,8 +17,8 @@
         background: #ffffff;
         box-shadow: 0px 10px 34px rgba(210, 210, 210, 0.45);
         border-radius: 20px;
-        max-width: 335px;
-        margin-top: -64px;
+        max-width: 1200px;
+        margin-top: -128px;
     }
 
     &__description {
@@ -48,8 +48,8 @@
 
     &__table {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 60px;
-        padding-top: 60px;
+        padding: 60px 50px;
     }
 }
