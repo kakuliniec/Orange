@@ -33,17 +33,6 @@
         z-index: 3;
     }
 
-    &__description2 {
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 36px;
-        color: #7C7C7C;
-        max-width: 240px;
-        position: absolute;
-        margin-top: -269px;
-        z-index: 3;
-    }
-
     &__down {
         max-width: 335px;
     }
@@ -66,10 +55,10 @@
         margin-left: -75px;
     }
 
-    &__litteQuoteW {
+    &__littleQuoteW {
         position: absolute;
         z-index: 2;
-        padding-top: 206px;
+        padding-top: 186px;
         margin-left: -290px;
     }
 
@@ -78,6 +67,7 @@
         font-size: 18px;
         line-height: 36px;
         color: #FFFFFF;
+        margin-top: -150px;
     }
 
     &__quotes {
@@ -88,6 +78,7 @@
 
     &__right {
         padding-top: 72px;
+        margin-left: -55px;
     }
 
     &__table {
