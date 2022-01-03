@@ -1,20 +1,19 @@
 .offer2 {
 
     .container {
-        padding: 100px 30px;
+        padding: 0px 120px 132px 120px;
     }
 
     &__button {
-        margin-top: 30px;
         background: #9BDBE7;
         border-radius: 20px;
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
-        line-height: 25px;
+        line-height: 24px;
         color: #FFFFFF;
         border: none;
-        margin-left: 99px;
+        margin-left: 396px;
         white-space: nowrap;
         height: 60px;
         width: 168px;
@@ -22,34 +21,30 @@
 
     &__content {
         display: flex;
-        flex-flow: column;
         align-items: center;
 
     }
 
     &__description {
         font-style: normal;
-        font-weight: 500;
-        font-size: 26px;
+        font-weight: bold;
+        font-size: 34px;
         line-height: 45px;
-        /* identical to box height, or 173% */
-        text-align: center;
-        /* DarkBlue */
+        text-align: end;
         color: #031D5B;
         margin: 0 auto;
+        padding-bottom: 40px;
     }
 
     &__header {
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
-        line-height: 40px;
-        /* or 133% */
-        text-align: center;
-        /* OrangeFull */
+        font-size: 48px;
+        line-height: 60px;
+        text-align: end;
         color: #F8765E;
         margin: 0 auto;
-        padding-top: 59px;
+        padding-bottom: 17px;
     }
 
     &__icon {
@@ -61,17 +56,16 @@
     &__image {
         position: relative;
         z-index: 3;
+        padding-left: 28px;
     }
 
     &__left {
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
+        max-width: 560px;
+        margin-left: 175px;
     }
 
     &__right {
         display: flex;
-        justify-content: center;
         align-items: center;
         position: relative;
     }
@@ -81,13 +75,10 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 32px;
-        /* or 200% */
-        text-align: center;
-        /* DarkBlue */
+        text-align: end;
         color: #031D5B;
-        padding: 30px;
         margin: 0 auto;
-        max-width: 375px;
+        padding-bottom: 40px;
     }
 
 }
