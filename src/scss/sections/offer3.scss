@@ -24,13 +24,24 @@
 
     &__description1 {
         font-weight: 500;
-    font-size: 18px;
-    line-height: 36px;
-    color: #FFFFFF;
-    max-width: 240px;
-    position: absolute;
-    margin-top: -269px;
-    z-index: 3;
+        font-size: 18px;
+        line-height: 36px;
+        color: #FFFFFF;
+        max-width: 240px;
+        position: absolute;
+        margin-top: -269px;
+        z-index: 3;
+    }
+
+    &__description2 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 36px;
+        color: #7C7C7C;
+        max-width: 240px;
+        position: absolute;
+        margin-top: -269px;
+        z-index: 3;
     }
 
     &__down {
@@ -64,9 +75,9 @@
 
     &__name1 {
         font-weight: 500;
-    font-size: 18px;
-    line-height: 36px;
-    color: #FFFFFF;
+        font-size: 18px;
+        line-height: 36px;
+        color: #FFFFFF;
     }
 
     &__quotes {
@@ -84,10 +95,9 @@
         border-radius: 20px 0px 0px 20px;
         margin-left: 75px;
         display: flex;
-    margin-top: -54px;
+        margin-top: -54px;
     }
 
-    &__up {
-    }
+    &__up {}
 
 }
