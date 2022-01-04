@@ -16,10 +16,11 @@
     }
 
     &__content {
+        position: relative;
         display: flex;
         flex-flow: column;
         align-items: center;
-        position: relative;
+
     }
 
     &__description1 {
