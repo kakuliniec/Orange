@@ -13,6 +13,10 @@
         font-size: 18px;
         line-height: 36px;
         color: #FFFFFF;
+        margin-top: 626px;
+        position: absolute;
+        z-index: 3;
+        margin-left: -151px;
     }
 
     &__content {
@@ -20,6 +24,7 @@
         display: flex;
         flex-flow: column;
         align-items: center;
+        max-width: 1320px;
 
     }
 
@@ -30,8 +35,9 @@
         color: #FFFFFF;
         max-width: 240px;
         position: absolute;
-        margin-top: -269px;
+        padding-top: 346px;
         z-index: 3;
+        margin-left: -151px;
     }
 
     &__down {
@@ -53,15 +59,17 @@
     }
 
     &__left {
-        padding-top: 72px;
-        margin-left: -75px;
+        padding-top: 205px;
+        margin-left: -235px;
+        z-index: 1;
+        position: absolute;
     }
 
     &__littleQuoteW {
         position: absolute;
-        z-index: 2;
-        padding-top: 186px;
-        margin-left: -290px;
+        z-index: 1;
+        padding-top: 305px;
+        margin-left: -151px;
     }
 
     &__name1 {
@@ -69,7 +77,10 @@
         font-size: 18px;
         line-height: 36px;
         color: #FFFFFF;
-        margin-top: -150px;
+        margin-top: 626px;
+        position: absolute;
+        z-index: 3;
+        margin-left: -151px;
     }
 
     &__quotes {
@@ -79,18 +90,20 @@
 
 
     &__right {
-        padding-top: 72px;
-        margin-left: -55px;
+        padding-top: 205px;
+        margin-left: 60px;
     }
 
     &__table {
         background: #F8765E;
         border-radius: 20px 0px 0px 20px;
-        margin-left: 75px;
+        margin-left: 510px;
         display: flex;
-        margin-top: -54px;
+        margin-top: -454px;
     }
 
-    &__up {}
+    &__up {
+        max-width: 100%;
+    }
 
 }
