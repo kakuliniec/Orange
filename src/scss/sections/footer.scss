@@ -2,25 +2,29 @@
     background: #F8765E;
 
     .container {
-        padding: 40px 0px 52px 0px;
+        padding: 40px 330px;
+        display: flex;
+        flex-flow: column;
     }
 
     &__nav {
         font-style: normal;
-        font-weight: bold;
+        font-weight: 900;
         font-size: 17px;
-        line-height: 20px;
-        /* identical to box height, or 118% */
+        line-height: 32px;
+        margin: 0 auto;
+        margin-top: 20px;
     }
 
 
     &__rights {
         font-style: normal;
         font-weight: bold;
-        font-size: 17px;
-        line-height: 20px;
+        font-size: 20px;
+        line-height: 25px;
         /* or 118% */
-    }
+        margin: 0 auto;
+        padding-bottom: 7px;   }
 
 
 }
