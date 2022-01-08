@@ -1,0 +1,29 @@
+.footer {
+    background: #F8765E;
+
+    .container {
+        padding: 40px 20px 52px 20px;
+    }
+
+    &__nav {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 20px;
+        /* identical to box height, or 118% */
+        margin: 0;
+
+    }
+
+    &__rights {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 20px;
+        /* or 118% */
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+
+}

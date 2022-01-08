@@ -1,0 +1,93 @@
+.offer2 {
+
+    .container {
+        padding: 100px 30px;
+    }
+
+    &__button {
+        margin-top: 30px;
+        background: #9BDBE7;
+        border-radius: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+        border: none;
+        margin-left: 99px;
+        white-space: nowrap;
+        height: 60px;
+        width: 168px;
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+
+    }
+
+    &__description {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 45px;
+        /* identical to box height, or 173% */
+        text-align: center;
+        /* DarkBlue */
+        color: #031D5B;
+        margin: 0 auto;
+    }
+
+    &__header {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        /* or 133% */
+        text-align: center;
+        /* OrangeFull */
+        color: #F8765E;
+        margin: 0 auto;
+        padding-top: 59px;
+    }
+
+    &__icon {
+        position: absolute;
+        z-index: 1;
+        ;
+    }
+
+    &__image {
+        position: relative;
+        z-index: 3;
+    }
+
+    &__left {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    &__right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        /* or 200% */
+        text-align: center;
+        /* DarkBlue */
+        color: #031D5B;
+        padding: 30px;
+        margin: 0 auto;
+        max-width: 375px;
+    }
+
+}
