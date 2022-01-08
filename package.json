@@ -1,8 +1,7 @@
 {
-  "name": "Orange",
+  "name": "orange",
   "version": "1.0.0",
   "description": "Orange landing page (mobile version only).",
-  "main": "index.js",
   "dependencies": {
     "parcel": "^2.0.1"
   },
@@ -11,6 +10,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
