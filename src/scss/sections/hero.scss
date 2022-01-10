@@ -5,7 +5,7 @@
     background: #F8765E;
 
     .container {
-        padding: 163px 52px 0px 120px;
+        padding: 146px 52px 0px 120px;
     }
 
     &__bottom {
@@ -44,7 +44,6 @@
     }
 
     &__form {
-        width: 100%;
         background: #FFFFFF;
         box-shadow: inset 0px 1px 5px rgb(0 0 0 / 30%);
         border-radius: 20px;
@@ -74,7 +73,6 @@
     }
 
     &__left {
-        max-width: 563px;
     }
 
     &__right {}
@@ -84,7 +82,7 @@
         font-weight: bold;
         font-size: 16px;
         line-height: 32px;
-        margin: 0 auto;
-        padding-top: 25px;
+        padding-top: 10px;
+        max-width: 563px;
     }
 }
