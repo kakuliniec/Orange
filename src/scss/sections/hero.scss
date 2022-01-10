@@ -14,18 +14,17 @@
     }
 
     &__button {
-        margin-top: 40px;
+        margin-top: 28px;
         background: #9BDBE7;
         border-radius: 20px;
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
-        line-height: 25px;
         color: #FFFFFF;
         border: none;
-        margin-bottom: 273px;
+        margin-bottom: 284px;
         white-space: nowrap;
-        padding: 18px 17px 17px 18px;
+        padding: 18px;
     }
 
 
@@ -47,11 +46,9 @@
         background: #FFFFFF;
         box-shadow: inset 0px 1px 5px rgb(0 0 0 / 30%);
         border-radius: 20px;
-        margin-top: 42px;
-        margin-right: 16px;
-        margin-bottom: 271px;
-        padding-right: 170px;
-    }
+        margin: 28px 16px 284px 0px;
+        padding-right: 116px;
+        }
 
     &__image {
         padding-left: 87px;
