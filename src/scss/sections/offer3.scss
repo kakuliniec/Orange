@@ -1,18 +1,16 @@
 .offer3 {
-
     .container {
         padding: 30px 0px 0px 120px;
     }
 
-
     &__button {
-        background: #9BDBE7;
+        background: #9bdbe7;
         border-radius: 20px;
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
         line-height: 25px;
-        color: #FFFFFF;
+        color: #ffffff;
         border: none;
         white-space: nowrap;
         padding: 8px 18px;
@@ -23,7 +21,7 @@
         display: flex;
         flex-flow: column;
         align-items: flex-start;
-        background: #9BDBE7;
+        background: #9bdbe7;
         box-shadow: 12px 12px 40px rgb(0 0 0 / 25%);
         border-radius: 20px;
         margin-top: 225px;
@@ -33,7 +31,6 @@
 
         &--bottom {
             display: flex;
-            padding-top: 128px;
             margin: 0;
             padding-left: 50px;
             padding-bottom: 63px;
@@ -44,7 +41,7 @@
         display: flex;
         flex-flow: column;
         align-items: flex-start;
-        background: #FFFFFF;
+        background: #ffffff;
         box-shadow: 12px 12px 40px rgb(0 0 0 / 25%);
         border-radius: 20px;
         margin-top: 225px;
@@ -52,7 +49,6 @@
 
         &--bottom {
             display: flex;
-            padding-top: 128px;
             margin: 0;
             padding-left: 50px;
             padding-bottom: 63px;
@@ -63,8 +59,9 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 36px;
-        color: #FFFFFF;
+        color: #ffffff;
         padding-left: 10px;
+        margin: 0;
     }
 
     &__company2 {
@@ -73,6 +70,7 @@
         line-height: 36px;
         color: #777777;
         padding-left: 10px;
+        margin: 0;
     }
 
     &__content {
@@ -81,31 +79,25 @@
         flex-flow: column;
         align-items: center;
         max-width: 1320px;
-
     }
 
     &__description1 {
         font-weight: 500;
         font-size: 18px;
         line-height: 36px;
-        color: #FFFFFF;
+        color: #ffffff;
         margin: 0 auto;
-        padding-top: 23px;
-        padding-left: 50px;
+        padding: 23px 77.5px 142px 50px;
     }
-
 
     &__description2 {
         font-weight: 500;
         font-size: 18px;
         line-height: 36px;
-        color: #7C7C7C;
-        ;
+        color: #7c7c7c;
         margin: 0 auto;
-        padding-top: 23px;
-        padding-left: 50px;
+        padding: 23px 60px 142px 50px;
     }
-
 
     &__down {
         display: flex;
@@ -126,7 +118,8 @@
         }
     }
 
-    &__form {}
+    &__form {
+    }
 
     &__header {
         font-style: normal;
@@ -146,18 +139,18 @@
         font-weight: normal;
         font-size: 20px;
         line-height: 25px;
-        color: #CDCDCD;
+        color: #cdcdcd;
         border: none;
         text-align: center;
-        background: #FFFFFF;
+        background: #ffffff;
         box-shadow: inset 0px 1px 5px rgb(0 0 0 / 30%);
         border-radius: 20px;
         max-width: 368px;
         padding: 20px 170px 15px 25px;
 
         ::placeholder {
-            color: #CDCDCD;
-            text-align: center
+            color: #cdcdcd;
+            text-align: center;
         }
     }
 
@@ -179,7 +172,8 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 36px;
-        color: #FFFFFF;
+        color: #ffffff;
+        margin: 0;
     }
 
     &__name2 {
@@ -188,28 +182,27 @@
         line-height: 36px;
         /* identical to box height, or 200% */
         color: #000000;
+        margin: 0;
     }
-
 
     &__quotes {
         position: relative;
         z-index: -1;
     }
 
-
     &__right {
         margin-left: 240px;
     }
 
     &__table {
-        background: #F8765E;
+        background: #f8765e;
         border-radius: 20px 0px 0px 20px;
         display: flex;
         justify-content: space-between;
         max-width: 810px;
         margin-left: 123px;
         margin-top: -30px;
-        padding-bottom: 160px;
+        padding-bottom: 269px;
         padding-right: 0px;
     }
 
@@ -219,11 +212,10 @@
         font-size: 34px;
         line-height: 45px;
         margin: 0;
-        color: #CDCDCD;
+        color: #cdcdcd;
     }
 
     &__up {
         display: flex;
     }
-
 }
