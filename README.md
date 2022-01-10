@@ -1,4 +1,4 @@
-# Orange - just started this project based on Figma.
+# Orange - project in progress, based on Figma.
 ## Orange landing page (mobile version first).
 
 
