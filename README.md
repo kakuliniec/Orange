@@ -14,6 +14,8 @@ Tools used here:
 
 To open:
 
-1.npm install
+1. git clone https://github.com/kakuliniec/orange.git
 
-2.npm start
+2.npm install
+
+3.npm start
