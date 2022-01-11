@@ -1,11 +1,11 @@
 .offer {
     .container {
-        padding: 0px 120px 208px 120px;
+        padding: 0px 96px 208px 120px;
     }
 
     &__collumn {
         display: grid;
-        padding: 12px 15px 60px 0px;
+        padding: 50px;
     }
 
     &__content {
@@ -42,6 +42,9 @@
         padding-bottom: 27px;
     }
 
+    &__img {
+    }
+
     &__pic {
         display: flex;
         align-items: center;
@@ -51,7 +54,5 @@
     &__table {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        padding: 50px;
-        column-gap: 60px;
     }
 }
