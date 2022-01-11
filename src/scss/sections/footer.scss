@@ -7,6 +7,15 @@
         flex-flow: column;
     }
 
+    &__list {
+        display: flex;
+        flex-flow: row;
+        list-style: none;
+        padding-left: 16px;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+
     &__nav {
         font-style: normal;
         font-weight: 900;
@@ -24,7 +33,11 @@
         line-height: 25px;
         /* or 118% */
         margin: 0 auto;
-        padding-bottom: 7px;   }
+        padding: 0 0 8px 20px;
+    }
 
+    &__slash {
+        padding: 0 26px;
+    }
 
 }
