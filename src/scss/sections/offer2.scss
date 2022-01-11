@@ -1,23 +1,20 @@
 .offer2 {
 
     .container {
-        padding: 100px 30px;
+        padding: 100px 0px;
     }
 
     &__button {
-        margin-top: 30px;
+        margin: 0px 98px 0px 99px;
         background: #9BDBE7;
         border-radius: 20px;
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
-        line-height: 25px;
         color: #FFFFFF;
         border: none;
-        margin-left: 99px;
         white-space: nowrap;
-        height: 60px;
-        width: 168px;
+        padding: 18px;
     }
 
     &__content {
@@ -28,7 +25,6 @@
     }
 
     &__description {
-        font-style: normal;
         font-weight: 500;
         font-size: 26px;
         line-height: 45px;
@@ -37,25 +33,24 @@
         /* DarkBlue */
         color: #031D5B;
         margin: 0 auto;
+        padding-top: 10px;
     }
 
     &__header {
-        font-style: normal;
         font-weight: bold;
         font-size: 30px;
         line-height: 40px;
-        /* or 133% */
         text-align: center;
-        /* OrangeFull */
         color: #F8765E;
         margin: 0 auto;
-        padding-top: 59px;
+        padding-top: 64px;
+        padding-left: 20px;
     }
 
     &__icon {
         position: absolute;
         z-index: 1;
-        ;
+        padding-top: 30px;
     }
 
     &__image {
@@ -77,7 +72,6 @@
     }
 
     &__text {
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 32px;
