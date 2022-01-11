@@ -100,10 +100,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 160px;
-        padding-right: 310.5px;
-        padding-left: 77.5px;
-        padding-bottom: 321px;
+        padding: 158px 170.5px 140px 77.5px;
 
         &--bottom {
             display: flex;
@@ -129,6 +126,7 @@
         margin: 0px auto;
         max-width: 328px;
     }
+
 
     &__input {
         font-weight: normal;
@@ -201,6 +199,7 @@
         line-height: 45px;
         margin: 0;
         color: #cdcdcd;
+        padding: 2px 30px 0px 0px;
     }
 
     &__up {
