@@ -29,15 +29,6 @@ a:hover {
     flex-wrap: wrap;
     margin: 0 auto;
 
-
-    &__logo {
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 13px;
-        line-height: 58px;
-        color: #FFFFFF;
-    }
 }
 
 .header {
@@ -48,6 +39,15 @@ a:hover {
         padding: 25px 45px 40px 51px;
     }
 
+    &__logo {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 13px;
+        line-height: 58px;
+        color: #FFFFFF;
+    }
+    
     &__title {
         margin: 0 auto;
         padding-right: 6px;

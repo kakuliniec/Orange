@@ -5,7 +5,7 @@
 
     &__collumn {
         display: grid;
-        padding: 0px 15px 60px 20px;
+        padding: 0px 15px 50px 20px;
     }
 
     &__content {
@@ -28,28 +28,35 @@
         line-height: 32px;
         /* or 200% */
         margin: 0;
+        padding-top: 10px;
     }
 
     &__header {
         margin: 0 auto;
-        padding-top: 41px;
-        padding-bottom: 17px;
+        padding-top: 36px;
+        padding-bottom: 12px;
+        font-size: 18px;
     }
 
     &__icon {
         padding-bottom: 17px;
     }
 
+    &__img2 {
+        padding-right: 60px;
+    }
+
     &__pic {
         display: flex;
-        /* align-items: center; */
+        align-items: center;
         justify-content: center;
+        padding-top: 10px;
     }
 
     &__table {
         display: grid;
         grid-template-columns: 1fr;
         grid-column-gap: 60px;
-        padding-top: 60px;
+        padding-top: 50px;
     }
 }
