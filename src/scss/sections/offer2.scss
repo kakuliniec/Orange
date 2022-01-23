@@ -43,13 +43,11 @@
         text-align: center;
         color: #F8765E;
         margin: 0 auto;
-        padding-top: 64px;
-        padding-left: 20px;
+        padding: 64px 0px 0px 20px;
     }
 
     &__icon {
         position: absolute;
-        z-index: 1;
         padding-top: 30px;
     }
 
