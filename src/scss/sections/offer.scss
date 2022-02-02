@@ -33,8 +33,7 @@
 
     &__header {
         margin: 0 auto;
-        padding-top: 36px;
-        padding-bottom: 12px;
+        padding: 36px 0px 12px 0px;
         font-size: 18px;
     }
 
@@ -43,7 +42,7 @@
     }
 
     &__img {
-        padding-right: 60px;
+        max-height: 140px;
     }
 
     &__pic {
