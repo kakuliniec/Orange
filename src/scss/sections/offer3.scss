@@ -1,7 +1,10 @@
 .offer3 {
-
     .container {
         padding: 0px 0px 0px 30px;
+    }
+
+    &__button {
+        margin: 26px 0px 0px 66px;
     }
 
     &__column {
@@ -12,7 +15,7 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 36px;
-        color: #FFFFFF;
+        color: #ffffff;
     }
 
     &__content {
@@ -22,27 +25,29 @@
         position: relative;
     }
 
-    &__description1 {
+    &__description {
         font-weight: 500;
         font-size: 18px;
         line-height: 36px;
-        color: #FFFFFF;
+        color: #ffffff;
         max-width: 160px;
         position: absolute;
-        margin-top: -314px;
+        margin: -314px 0px 0px -6px;
         z-index: 3;
-        margin-left: -6px;
     }
 
     &__down {
         max-width: 335px;
 
         &--header {
-            .offer2__header {
-            padding: 23px 0px 0px 0px;
-            }
+            padding: 104px 0px 0px 0px;
+            margin: 0px 0px 0px -30px;
         }
-        
+    }
+
+    &__form {
+        padding: 12px 0px 0px 0px;
+        margin: 42px 0px 0px -20px;
     }
 
     &__header {
@@ -53,30 +58,28 @@
         position: absolute;
         z-index: 2;
         max-width: 234px;
-        padding-left: 10px;
-        padding-top: 20px;
+        padding: 20px 0px 0px 10px;
         margin: 0px auto;
     }
 
     &__left {
-        padding-top: 98px;
-        margin-left: -75px;
+        margin: 0px 0px 0px -75px;
+        padding: 98px 0px 0px 0px;
     }
 
     &__littleQuoteW {
         position: absolute;
         z-index: 2;
-        padding-top: 206px;
-        margin-left: -303px;
+        padding: 206px 0px 0px 0px;
+        margin: 0px 0px 0px -303px;
     }
 
     &__name {
         font-weight: 500;
         font-size: 18px;
         line-height: 36px;
-        color: #FFFFFF;
-        margin-top: -156px;
-        margin-left: -4px;
+        color: #ffffff;
+        margin: -156px 0px 0px -4px;
     }
 
     &__quotes {
@@ -84,20 +87,23 @@
         z-index: 1;
     }
 
-
     &__right {
         padding: 98px 0px 0px 0px;
         margin: 0px 0px 0px -55px;
     }
 
     &__table {
-        background: #F8765E;
+        background: #f8765e;
         border-radius: 20px 0px 0px 20px;
         display: flex;
         margin: -60px 0px 0px 46px;
         padding: 0px 0px 72px 0px;
     }
 
-    &__up {}
-
+    &__text {
+        font-size: 26px;
+        line-height: 45px;
+        margin: 0 auto;
+        color: #cdcdcd;
+    }
 }

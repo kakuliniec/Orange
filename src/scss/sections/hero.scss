@@ -46,7 +46,7 @@
         background: #FFFFFF;
         box-shadow: inset 0px 1px 5px rgb(0 0 0 / 30%);
         border-radius: 20px;
-        margin-top: 30px;
+        margin: 30px 0px 0px 0px;
     }
 
     &__input {
@@ -55,7 +55,7 @@
         line-height: 25px;
         color: #CDCDCD;
         border: none;
-        margin: 14px 0px 7px 20px;
+        margin: 10px 0px 7px 20px;
 
         ::placeholder {
             color: #CDCDCD;
