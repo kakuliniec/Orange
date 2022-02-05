@@ -4,8 +4,7 @@
     }
 
     &__button {
-        margin: 26px 0px 0px 66px;
-        cursor: pointer;
+
 
     }
 
@@ -39,7 +38,8 @@
     }
 
     &__down {
-        max-width: 335px;
+        display: flex;
+    flex-direction: column;
 
         &--header {
             padding: 104px 0px 0px 0px;
