@@ -14,21 +14,21 @@
         margin: 126px 0px 134px -55px;
         min-width: 300px;
 
+        &--content {
+            padding: 80px 20px 63px 50px;
+        }
+
         &--right {
-            .offer3__collumn {
-                background: #ffffff;
-                box-shadow: 12px 12px 40px rgba(0, 0, 0, 0.25);
-                border-radius: 20px;
-                margin: 126px 40px 134px 20px;
-            }
+            background: #ffffff;
+            margin: 126px 40px 134px 20px;
         }
     }
 
-    &__company1 {
+    &__company {
         font-weight: 500;
         font-size: 18px;
         line-height: 36px;
-        color: #ffffff;
+        color: #7c7c7c;
     }
 
     &__content {
@@ -43,15 +43,19 @@
         font-size: 18px;
         line-height: 36px;
         color: #ffffff;
-        max-width: 160px;
-        position: absolute;
-        margin: -314px 0px 0px -6px;
-        z-index: 3;
+        margin: 0;
+        padding: 18px 0px 78px 0px;
+
+        &--right {
+            color: #7c7c7c;
+        }
     }
 
     &__down {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+    align-items: flex-start;
 
         &--header {
             padding: 104px 0px 0px 0px;
@@ -82,10 +86,6 @@
     }
 
     &__littleQuoteW {
-        position: absolute;
-        z-index: 2;
-        padding: 206px 0px 0px 0px;
-        margin: 0px 0px 0px -303px;
     }
 
     &__name {
@@ -93,7 +93,10 @@
         font-size: 18px;
         line-height: 36px;
         color: #ffffff;
-        margin: -156px 0px 0px -4px;
+
+        &--right {
+            color: #000000;
+        }
     }
 
     &__quotes {
@@ -117,7 +120,7 @@
     &__text {
         font-size: 26px;
         line-height: 45px;
-        margin: 0 auto;
+        margin: 0;
         color: #cdcdcd;
     }
 }
