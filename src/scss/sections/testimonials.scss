@@ -1,6 +1,6 @@
 .testimonials {
     .container {
-        padding: 0px 0px 0px 30px;
+        padding: 0px;
     }
 
     &__button {
@@ -9,9 +9,9 @@
     &__column {
         position: relative;
         background: #9bdbe7;
-        box-shadow: 12px 12px 40px rgba(0, 0, 0, 0.25);
+        box-shadow: 12px 12px 40px rgb(0 0 0 / 25%);
         border-radius: 20px;
-        margin: 126px 0px 134px -55px;
+        margin: 126px 0px 142px -55px;
         min-width: 300px;
 
         &--content {
@@ -57,7 +57,7 @@
         justify-content: center;
         align-items: center;
         max-width: 375px;
-        margin: 136px 0px 0px 0px;
+        margin: 146px 0px 0px 0px;
 
         &--header {
             padding: 64px 0px 0px 0px;
@@ -66,6 +66,7 @@
 
     &__form {
         width: 100%;
+        padding: 14px;
     }
 
     &__header {
@@ -108,9 +109,8 @@
         background: #f8765e;
         border-radius: 20px 0px 0px 20px;
         display: flex;
-        margin: 0px 0px 0px 55px;
-        padding: 0px;
         top: 111px;
+        left: 74px;
         position: relative;
         z-index: -1;
     }
@@ -125,6 +125,7 @@
     &__up {
         &--header {
             position: absolute;
+            left: 30px;
         }
     }
 }
