@@ -2,11 +2,9 @@
   "name": "orange",
   "version": "1.0.0",
   "description": "Orange landing page (mobile version only).",
+  "main": "index.js",
   "dependencies": {
     "parcel": "^2.0.1"
-  },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.1"
   },
   "scripts": {
     "start": "parcel index.html",
@@ -23,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/kakuliniec/Orange/issues"
   },
-  "homepage": "https://github.com/kakuliniec/Orange#readme"
+  "homepage": "https://github.com/kakuliniec/Orange#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2"
+  }
 }
