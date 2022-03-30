@@ -16,6 +16,6 @@ To open:
 
 1. git clone https://github.com/kakuliniec/orange.git
 
-2.npm install
+2. npm install
 
-3.npm start
+3. npm start
