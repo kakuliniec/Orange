@@ -1,0 +1,28 @@
+.subscribe {
+    .container {
+        padding: 100px 19px 117px 20px;
+    }
+
+    &__down {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &--header {
+            padding: 64px 0px 0px 0px;
+        }
+    }
+
+    &__form {
+        width: 100%;
+        padding: 14px;
+    }
+
+    &__text {
+        font-size: 26px;
+        line-height: 45px;
+        margin: 0;
+        color: #cdcdcd;
+    }
+}

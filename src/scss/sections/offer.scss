@@ -3,9 +3,9 @@
         padding: 0px 20px 0px 20px;
     }
 
-    &__collumn {
+    &__column {
         display: grid;
-        padding: 0px 15px 60px 20px;
+        padding: 0px 15px 50px 20px;
     }
 
     &__content {
@@ -17,8 +17,8 @@
         background: #ffffff;
         box-shadow: 0px 10px 34px rgba(210, 210, 210, 0.45);
         border-radius: 20px;
-        max-width: 335px;
-        margin-top: -64px;
+        max-width: 1200px;
+        margin: -64px 0px 0px 0px;
     }
 
     &__description {
@@ -26,30 +26,35 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 32px;
-        /* or 200% */
         margin: 0;
+        padding: 10px 0px 0px 0px;
     }
 
     &__header {
         margin: 0 auto;
-        padding-top: 41px;
-        padding-bottom: 17px;
+        padding: 36px 0px 12px 0px;
+        font-size: 18px;
     }
 
     &__icon {
-        padding-bottom: 17px;
+        padding: 0px 0px 17px 0px;
+    }
+
+    &__img {
+        max-height: 140px;
     }
 
     &__pic {
         display: flex;
-        /* align-items: center; */
+        align-items: center;
         justify-content: center;
+        padding: 10px 0px 0px 0px;
     }
 
     &__table {
         display: grid;
         grid-template-columns: 1fr;
         grid-column-gap: 60px;
-        padding-top: 60px;
+        padding: 50px 0px 0px 0px;
     }
 }
